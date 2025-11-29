@@ -1,0 +1,71 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #ccc;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#title{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 7vw;
+}
+#subtitle{
+    text-align: center;
+    font-weight: 500;
+}
+#img-caption{
+    text-align: center;
+    font-size: 13pt;
+}
+#img-div{
+    background-color: #f7f0f0;
+    padding: 1rem;
+}
+#image{
+    max-width: 100%;
+    height: auto;
+    margin: 25px auto;
+    /* border: 2px solid blue; */
+    display: block;
+}
+#tribute-info h2{
+    text-align: center;
+}
+.date{
+    font-size: large;
+    font-weight: bold;
+}
+li{
+    padding: 10px 15px;
+}
+.pensee{
+    /* text-align: center; */
+    padding: 20px 30px;
+    background-color: #aaa;
+    display: inline-block;
+    margin: 10px 30px;
+    font-size: calc(10pt + 0.5vw);
+    word-spacing: 1.5;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 8px;
+    border-left: 4px solid black;
+}
+footer{
+    text-align: center;
+    background-color: #757474;
+    margin-bottom: 10px;
+    padding: 15px 10px 8px 10px;
+    line-height: 1.5;
+}
+#tribute-link{
+    font-size: large;
+    font-weight: bold;
+    color: black;
+    text-transform: capitalize;
+    transition: all 0.5s;
+}
+#tribute-link:hover{
+    font-size: larger;
+}
